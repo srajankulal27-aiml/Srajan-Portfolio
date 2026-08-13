@@ -22,27 +22,33 @@ const certifications = [
   {
     title: 'Cloud Computing',
     provider: 'NPTEL',
-    duration: '12 Weeks',
-    file: '/certificates/cloud-computing.pdf', // Placeholder for actual file
+    duration: '12 Week Course',
+    file: '/certificates/cloud-computing.pdf',
     icon: <Award size={20} className="text-slate-400 group-hover:text-violet-600 transition-colors" />
   },
   {
     title: 'Introduction to Internet of Things',
     provider: 'NPTEL',
-    duration: '12 Weeks',
-    file: '/certificates/iot.pdf', // Placeholder for actual file
+    duration: '12 Week Course',
+    file: '/certificates/introduction-to-iot.pdf',
     icon: <Award size={20} className="text-slate-400 group-hover:text-violet-600 transition-colors" />
   },
   {
-    title: 'Generative AI',
+    title: 'Computer Vision Basics',
     provider: 'Coursera',
-    file: '/certificates/generative-ai.pdf', // Placeholder for actual file
+    file: '/certificates/computer-vision.pdf',
     icon: <ShieldCheck size={20} className="text-slate-400 group-hover:text-violet-600 transition-colors" />
   },
   {
-    title: 'Cloud Computing',
-    provider: 'Coursera',
-    file: '/certificates/cloud-computing-coursera.pdf', // Placeholder for actual file
+    title: 'Introduction to Deep Learning',
+    provider: 'Infosys Springboard',
+    file: '/certificates/deep-learning.pdf',
+    icon: <ShieldCheck size={20} className="text-slate-400 group-hover:text-violet-600 transition-colors" />
+  },
+  {
+    title: 'Introduction to Artificial Intelligence',
+    provider: 'Infosys Springboard',
+    file: '/certificates/introduction-to-ai.pdf',
     icon: <ShieldCheck size={20} className="text-slate-400 group-hover:text-violet-600 transition-colors" />
   }
 ];
@@ -139,9 +145,12 @@ export function Journey() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="mb-12"
           >
-            <h2 className="text-4xl sm:text-5xl font-bold tracking-tighter text-slate-900">
+            <h2 className="text-4xl sm:text-5xl font-bold tracking-tighter text-slate-900 mb-4">
               CERTIFICATIONS
             </h2>
+            <p className="text-lg text-slate-600 max-w-2xl">
+              Professional certifications that strengthen my AI, Machine Learning, Computer Vision and Cloud skills.
+            </p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
