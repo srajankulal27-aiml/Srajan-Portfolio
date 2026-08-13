@@ -136,7 +136,7 @@ export function Hero() {
                   <span className="sr-only">LinkedIn</span>
                 </a>
                 <div className="relative flex items-center gap-2">
-                  <a href="mailto:srajanaiml27@gmail.com" className="text-slate-400 hover:text-slate-900 hover:-translate-y-1 transition-all p-2 bg-white rounded-full shadow-sm border border-slate-100">
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=srajanaiml27@gmail.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-900 hover:-translate-y-1 transition-all p-2 bg-white rounded-full shadow-sm border border-slate-100">
                     <Mail size={20} />
                     <span className="sr-only">Email</span>
                   </a>

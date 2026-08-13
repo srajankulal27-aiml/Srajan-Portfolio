@@ -48,7 +48,9 @@ export function Contact() {
               <span className="text-sm font-semibold text-slate-400 tracking-widest uppercase">Email</span>
               <div className="flex items-center justify-between gap-8 group">
                 <a 
-                  href="mailto:srajanaiml27@gmail.com"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=srajanaiml27@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900 hover:text-violet-600 transition-colors"
                 >
                   srajanaiml27@gmail.com
